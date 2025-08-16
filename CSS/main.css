@@ -1,0 +1,102 @@
+/* constants */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans";
+}
+
+body {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+:root {
+    --Purple-100: hsl(254, 88%, 90%);
+    --Purple-500: hsl(256, 67%, 59%);
+
+    --Yellow-100: hsl(31, 66%, 93%);
+    --Yellow-500: hsl(39, 100%, 71%);
+
+    --White: hsl(0, 0%, 100%);
+    --Black: hsl(0, 0%, 7%);
+}
+
+p {
+    font-size: 18px;
+}
+img {
+    width: 100%;
+}
+/* constants */
+/* main */
+main {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: teal;
+}
+
+
+
+
+/* main */
+/* components */
+
+.container {
+    padding: 20px;
+    /* background-color: white; */
+}
+
+.card {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 90%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
+
+.purple-1 {
+    background-color: var(--Purple-500);
+}
+.purple-2 {
+    background-color: var(--Purple-100);
+}
+.yellow-1 {
+    background-color: var(--Yellow-500);
+}
+.yellow-2 {
+    background-color: var(--Yellow-100);
+}
+.white {
+    background-color: var(--White);
+}
+
+
+/* components */
+/* start of card-1 */
+.card-1 {
+    gap: 20px;
+
+}
+
+.card-1 p:nth-child(1) {
+    font-size: 40px;
+
+}
+
+
+
+
+/* end of card-1*/
